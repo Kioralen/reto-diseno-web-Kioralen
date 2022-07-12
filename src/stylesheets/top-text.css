@@ -1,0 +1,52 @@
+.main-text {
+  color: lightgray;
+}
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  color: purple;
+}
+
+.rated {
+  flex: 1 1;
+}
+
+.top-text {
+  flex-wrap: wrap;
+}
+.contenedor {
+  min-height: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin: 80px;
+
+}
+.main-text {
+  width: 375px;
+  height: 300px;
+  justify-content: center;
+}
+.reviews {
+  border: 2px double white;
+  border-radius: 10px;
+  width: auto;
+  justify-content: center;
+  height: 45px;
+  display: felx;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: #f7f2f8;
+}
+.rated {
+  align-items: center;
+}
